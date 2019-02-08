@@ -20,11 +20,6 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- script: |
-    CI=true
-    npm run test
-  displayName: 'run tests'
-
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: $(Build.SourcesDirectory)/build/
