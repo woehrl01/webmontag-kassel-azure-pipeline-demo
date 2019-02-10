@@ -21,6 +21,7 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
+    export CI=true
     npm run citest
   displayName: 'npm run tests'
 
