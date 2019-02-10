@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test  --env=jsdom --testResultsProcessor=jest-junit",
+    "test": "react-scripts test",
+    "citest": "react-scripts test --ci --env=jsdom --testResultsProcessor=jest-junit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
