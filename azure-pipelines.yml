@@ -33,4 +33,4 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: $(Build.SourcesDirectory)/build/
-    artifactName: AzureFunctionPythonOutput
+    artifactName: WebMontagKasselDemo
