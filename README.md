@@ -2,6 +2,19 @@
 
 Have look for the `azure-pipelines.yml`
 
+### The Build Pipeline which gets triggered on each push to GitHub
+![Build Pipeline](docs/build_pipeline.png?raw=true)
+
+### The Release Pipeline Overview the the lastest releases
+![Release Pipeline Overview](docs/release_pipeline.png?raw=true)
+
+### The Release Pipeline with the concret artefacts and stages
+![Release Pipeline](docs/release_pipeline2.png?raw=true )
+
+### The Toggle you can set, to enable a continous deployment on each successful build
+![Continous Deployment](docs/release_pipeline_continous.png?raw=true)
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
