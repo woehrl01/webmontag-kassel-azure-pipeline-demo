@@ -2,6 +2,12 @@
 
 Have look at the `azure-pipelines.yml` file.
 
+You can access the Azure DevOps Project at:
+https://dev.azure.com/lukaswoehrl/webmontag-kassel-azure-pipeline-demo/
+
+The website this gets deployed to can be accessed via:
+https://webmontag-kassel-lx.azurewebsites.net/
+
 ### The build pipeline which gets triggered on each push to GitHub
 ![Build Pipeline](docs/build_pipeline.png?raw=true)
 
